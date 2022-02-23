@@ -1,20 +1,24 @@
 .item-1{
     background-color: red;
+    order: 2;
 }
 .item-2{
     background-color: green;
+    order: 1;
 }
 .item-3{
     background-color: yellow;
+    order: 3;
 }
 .container{
-    font-size: 50px;
+    border: 5px solid gray;
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .container div{
+    font-size: 2em;
     color: white;
     margin: 10px;
     text-align: center;
