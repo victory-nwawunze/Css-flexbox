@@ -1,0 +1,21 @@
+.item-1{
+    background-color: red;
+}
+.item-2{
+    background-color: green;
+}
+.item-3{
+    background-color: yellow;
+}
+.container{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container div{
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
